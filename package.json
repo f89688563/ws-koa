@@ -1,0 +1,24 @@
+{
+  "name": "hello-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "fs": "0.0.1-security",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "mime": "^2.0.3",
+    "mz": "^2.7.0",
+    "nunjucks": "^3.0.1",
+    "ws": "^3.2.0"
+  }
+}
