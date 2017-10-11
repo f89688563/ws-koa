@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "babel-node app.js"
+    "dev": "babel-node app",
+    "start": "nohup babel-node app &"
   },
   "keywords": [],
   "author": "",
